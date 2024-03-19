@@ -1,0 +1,58 @@
+.etc-transportation-wrap #contents .contents-box  {
+    border: 1px solid #b7b7b7;
+}
+
+.etc-transportation-wrap #contents .contents-box .box-top  {
+    height: 225px;
+    padding: 30px;
+}
+
+.etc-transportation-wrap #contents .contents-box h3 {
+    font-size: 17px;
+    color: #111111;
+}
+
+.etc-transportation-wrap #contents .contents-box h3 img {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.etc-transportation-wrap #contents .contents-box p {
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.etc-transportation-wrap #contents .contents-box .box-bottom {
+    height: 220px;
+    background-color: #ececec;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.etc-transportation-wrap .upload-wrap {
+    font-size: 0;
+}
+
+.etc-transportation-wrap #upload_file {
+    display: none;
+}
+
+.etc-transportation-wrap label[for=upload_file] {
+    background-color: black;
+    color: #ffffff;
+    height: 33px;
+    padding: 0 14px;
+    line-height: 33px;
+    font-size: 15px;
+    display: inline-block;
+}
+
+.etc-transportation-wrap #upload_file_text {
+    padding:0 10px;
+    width: 263px;
+    height: 33px;
+}
+
+.etc-transportation-view .limit-wrap span {
+    color: #707070;
+}

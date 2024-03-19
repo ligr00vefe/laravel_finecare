@@ -1,0 +1,11 @@
+.worker-cal__table {
+    font-size: 14.5px;
+    color: #363636;
+}
+
+.worker-cal__table thead tr th:first-child input[type=checkbox] + label ,
+.worker-cal__table tbody td:first-child input[type=checkbox] + label
+{
+    vertical-align: middle;
+    padding-left: 10px;
+}

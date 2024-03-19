@@ -1,0 +1,126 @@
+
+.list_wrapper .head-info h1 {
+    display: inline-block;
+}
+
+.action-wrap {
+    float:right;
+}
+
+.action-wrap ul li {
+    display: inline-block;
+    margin-right: 3px;
+}
+
+.action-wrap ul li button {
+    padding: 7px 10px;
+    line-height: 1;
+    font-size: 14px;
+    background-color: #f3f2f2;
+    color: #464646;
+    border: 1px solid #b7b7b7;
+}
+
+.action-wrap ul li:last-child button,
+.action-wrap ul li:last-child a
+{
+    display: inline-block;
+    background-color: transparent;
+    color: #eb8626;
+    border: 1px solid #eb8626;
+    font-size: 14px;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.action-wrap ul li:last-child button {
+    line-height: 0;
+}
+
+.search-wrap .limit-wrap {
+    font-size: 0;
+}
+
+.search-wrap .limit-wrap p {
+    font-size: 13px;
+    font-weight: bold;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.search-wrap .limit-wrap input {
+    width: 110px;
+    height: 30px;
+    font-size: 14px;
+    color: #7d7d7d;
+    padding: 0 9px;
+    border: 1px solid #b7b7b7;
+}
+
+.search-wrap .limit-wrap label {
+    position: relative;
+    left: -23px;
+    top: 2px;
+}
+
+
+.search-wrap .limit-wrap span {
+    font-size: 15px;
+    margin-right: 10px;
+}
+
+.search-wrap .limit-wrap button {
+    width: 45px;
+    height: 32px;
+    font-size: 14px;
+    background-color: #252525;
+    color: #ffffff;
+    border: none;
+}
+
+
+.list_wrapper #list_contents {
+    /*overflow-x: auto;*/
+}
+
+
+
+.list_wrapper #list_contents table tr th {
+    font-size: 14.5px;
+}
+
+
+.list_wrapper input[type="checkbox"] + label {
+    padding-left: 6px;
+}
+
+.list_wrapper input[type="checkbox"] + label:before {
+    margin-top: -14px !important;
+}
+
+table.in-input tr td input,
+table.in-input tr td textarea
+{
+    background-color: transparent;
+    border: none;
+    font-size: 14.5px;
+    color: #636363;
+}
+
+table.in-input tr td input {
+    width: 80%;
+    text-align: center;
+}
+
+
+table.in-input tr td textarea {
+    width: 100%;
+    resize: none;
+}
+
+
+.over-x-auto {
+    overflow-x: auto;
+}

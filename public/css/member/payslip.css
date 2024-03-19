@@ -1,0 +1,113 @@
+table {
+    text-align: center;
+}
+
+.input-datepicker + label {
+    margin-top: 2px;
+}
+
+.form-wrap {
+    width: 100%;
+    height: 50px;
+    background-color: #ececec;
+    padding-left: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.form-wrap input {
+    width: 150px !important;
+    height: 32px;
+    margin-left: 20px;
+}
+
+.form-wrap ul li {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.payslip-wrap {
+    width: 857px;
+}
+
+.payslip {
+    width: 100%;
+    border: 1px solid #b7b7b7;
+    padding: 30px 20px;
+    text-align: center;
+    margin: 30px 0;
+}
+
+.payslip-body table {
+    width: 100%;
+    border: 1px solid #b7b7b7;
+    border-collapse: collapse;
+}
+
+.payslip-body table tr td,
+.payslip-body table tr th {
+    border: 1px solid #b7b7b7;
+    height: 50px;
+    font-size: 15px;
+}
+
+.payslip-body table tr th {
+    background-color: #f3f3f3;
+    width: 15%;
+}
+
+.payslip-head__text {
+    font-size: 22px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+.payslip .table-title {
+    text-align: left;
+    font-size: 17px;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.before-dot:before {
+    content: "•";
+    color: black;
+    margin-right: 5px;
+}
+
+.btn-wrap {
+    width: 857px;
+}
+
+.payslip-download__button {
+    width: 122px;
+    height: 38px;
+    color: #464646;
+    background-color: #e2e2e2;
+    text-align: center;
+    border: none;
+}
+
+.payslip-action__button {
+    width: 122px;
+    height: 38px;
+    color: white;
+    background-color: #111111;
+    text-align: center;
+    border: none;
+    display: inline-block;
+}
+
+.payslip-result{
+    text-align: center;
+    width: 857px;
+    padding:50px 0;
+}
+
+.payslip-pdf-form{
+    display: inline-block!important;
+}
+
+.payslip-point{color:#eb8626}

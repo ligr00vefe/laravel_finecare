@@ -1,0 +1,32 @@
+.worker-payment__table thead tr.head-desc th:nth-child(6) {
+    border-right: 1px solid #b7b7b7;
+}
+
+.worker-payment__table thead tr.head-desc th:last-child {
+    border-left: 1px solid #b7b7b7;
+    border-right: 1px solid #b7b7b7;
+}
+
+.worker-payment__table thead tr.month-list th {
+    border-right: 1px solid #b7b7b7;
+}
+
+.worker-payment__table tbody tr.total th {
+    height: 60px;
+    text-align: right;
+    padding: 0 10px;
+    font-size: 15px;
+}
+
+
+.worker-payment__table tbody tr th:nth-child(n+2) {
+    border-right: 1px solid #b7b7b7;
+}
+
+.worker-payment__table tbody tr td:nth-child(n+6)
+{
+    border-right: 1px solid #b7b7b7;
+    text-align: right;
+    padding: 0 10px;
+    font-size: 14.5px;
+}

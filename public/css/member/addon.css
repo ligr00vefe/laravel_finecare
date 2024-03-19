@@ -1,0 +1,104 @@
+.addon-statistics .search-wrap span {
+    color: #707070;
+}
+
+
+.addon-other .head-tabs-wrap ul {
+    overflow: hidden;
+}
+
+.addon-other .head-tabs-wrap ul li {
+    display: inline-block;
+    width: 170px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #b7b7b7;
+    font-size: 15px;
+    float: left;
+    color: #111111;
+}
+
+.addon-other .head-tabs-wrap ul li a {
+    display: block;
+}
+
+.addon-other .head-tabs-wrap ul li:first-child {
+    border-right: none;
+}
+
+.addon-other .head-tabs-wrap ul li.on a {
+    background-color: #252525;
+    color: #ffffff;
+}
+
+.addon-other table.member-list tr td {
+    padding: 0 40px !important;
+}
+
+
+.addon-other #list_contents table.member-list tr:nth-child(2n) td {
+    background-color: transparent !important;
+}
+
+
+.addon-other #list_contents > h3 {
+    font-size: 16px;
+    color: #111111;
+    font-family: "Noto Sans CJK KR Bold";
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+
+
+.addon-tax-year #info {
+    background-color: #f3f2f2;
+    padding: 30px;
+}
+
+.addon-tax-year #info h3 {
+    font-size: 16px;
+    font-family: "Noto Sans CJK KR Bold";
+}
+
+.addon-tax-year #info h4 {
+    font-size: 15px;
+    font-family: "Noto Sans CJK KR Bold";
+}
+
+.addon-tax-year #info p {
+    font-size: 15px;
+    color: #555555;
+}
+
+.before-star li {
+    font-size: 15px;
+    color: #555555;
+    padding: 2px 0;
+}
+
+.before-star li:before {
+    content: "★";
+    margin-right: 5px;
+}
+
+
+.addon-year-end-tax .filter-sort select {
+    width: 130px;
+    height: 33px;
+    padding: 0 5px;
+}
+
+.addon-year-end-tax .filter-sort a {
+    width: 156px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+    background-color: #f4f4f4;
+    border:1px solid #b7b7b7;
+    height: 33px;
+    line-height: 33px;
+}

@@ -1,0 +1,58 @@
+#member_find {
+    padding: 30px;
+    width: calc( 100% - 230px );
+    float: left;
+    border-left: 1px solid #b7b7b7;
+}
+
+#member_find h1 {
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+
+#member_find #find_top .search-wrap {
+    background-color: #ececec;
+    border: 1px solid #b7b7b7;
+    padding: 30px;
+}
+
+#member_find #find_top .search-wrap h3 {
+    margin-bottom: 15px;
+}
+
+
+#member_find #find_top .search-wrap table {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#member_find #find_top .search-wrap table tr th,
+#member_find #find_top .search-wrap table tr td {
+    padding: 7px 0;
+    text-align: left;
+    color: #555555;
+}
+
+#member_find #find_top .search-wrap table label {
+    margin-right: 20px;
+}
+
+#member_find #find_top .search-wrap .findAction {
+    width: 150px;
+    height: 40px;
+    color: #ffffff;
+    font-size: 15px;
+    background-color: #000000;
+    border: none;
+}
+
+.btn-wrap {
+    text-align: center;
+}
+
+
+#member_find #list_content .content-info p {
+    font-size: 14px;
+    color: #707070;
+    margin: 20px 0 10px;
+}

@@ -1,0 +1,19 @@
+.search-wrap.retiring-wrap > form > .text-wrap {
+    display: inline-block;
+}
+
+.search-wrap.retiring-wrap > form > .search-input {
+    vertical-align:middle;
+}
+
+.doc-check__table tr th {
+    width: 25%;
+}
+
+.t-area-wrap textarea {
+    width: 612px;
+    height: 101px;
+    border: 1px solid #b7b7b7;
+    vertical-align: text-bottom;
+    padding: 10px;
+}

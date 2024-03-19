@@ -1,0 +1,110 @@
+#member_register .register-content li {
+    display: inline-block;
+    float:left;
+    width: calc( 50% - 10px );
+    height: auto;
+    margin-right: 20px;
+    border: 1px solid #b7b7b7;
+    margin-bottom: 10px;
+}
+
+#member_register .register-content li:nth-child(2) {
+    margin-right: 0 !important;
+}
+
+#member_register .register-content li .box-in {
+    text-align: center;
+}
+
+#member_register .register-content li .box-in .box-top {
+    padding: 50px 0;
+    height: 370px;
+}
+
+#member_register .register-content li .box-in .box-top .img-wrap {
+    margin-bottom: 25px;
+}
+
+#member_register .register-content li .box-in h3 {
+    font-size: 17px;
+    color: #111111;
+}
+
+#member_register .register-content li .box-in .box-top .text-wrap button {
+    width: 120px;
+    height: 33px;
+    color: #eb8626;
+    border: 1px solid #eb8626;
+    background-color: transparent;
+    margin-top: 16px;
+}
+
+#member_register .register-content li .box-in .box-top .text-wrap a {
+    width: 120px;
+    height: 33px;
+    line-height: 33px;
+    color: #eb8626;
+    border: 1px solid #eb8626;
+    background-color: transparent;
+    margin-top: 16px;
+    display: inline-block;
+    font-size: 13px;
+}
+
+
+#member_register .register-content li .box-in .box-top .text-wrap a img {
+    position: relative;
+    left: -5px;
+}
+
+#member_register .register-content li .box-in .box-top .text-wrap p.latest-info {
+    font-size: 15px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    color: #eb8626;
+    font-weight: bold;
+}
+
+#member_register .register-content li .box-in .box-top .text-wrap p.upload-info {
+    font-size: 15px;
+    color: #7d7d7d;
+    line-height: 22px;
+    margin-bottom: 50px;
+}
+
+#member_register .register-content li .box-in .box-bottom {
+    background-color: #ececec;
+    padding-top: 50px;
+    height: 280px;
+}
+
+#member_register .register-content li .box-in .box-bottom .upload-wrap {
+    font-size: 0;
+}
+
+#member_register .register-content li .box-in .box-bottom label {
+    color: #363636;
+}
+
+#member_register .register-content li .box-in .box-bottom input[type=file] {
+    display: none;
+}
+
+#member_register .register-content li .box-in .box-bottom input[name=basic_file_name],
+#member_register .register-content li .box-in .box-bottom input[name=detail_file_name]
+{
+    height: 33px;
+    padding: 0 10px;
+}
+
+#member_register .register-content li .box-in .box-bottom label[for=basic_excel_upload],
+#member_register .register-content li .box-in .box-bottom label[for=detail_excel_upload]
+{
+    height: 33px;
+    line-height: 33px;
+    background-color: #111111;
+    display: inline-block;
+    color: #ffffff;
+    font-size: 14px;
+    padding: 0 15px;
+}

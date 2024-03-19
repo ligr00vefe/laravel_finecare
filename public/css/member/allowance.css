@@ -1,0 +1,51 @@
+.worker_allowance .search-wrap .limit-wrap > span {
+    color: #707070;
+    font-size: 14px;
+}
+
+.worker_allowance .search-wrap .limit-wrap > select {
+    margin-right: 5px;
+}
+
+.worker_allowance .search-wrap .limit-wrap > a {
+    display: inline-block;
+}
+
+
+.worker_allowance table thead tr th {
+    height: 40px;
+}
+
+
+.worker_allowance table thead tr th:nth-child(6n) {
+    border-right: 1px solid #b7b7b7;
+}
+
+
+.worker_allowance table thead tr.date-into th:nth-child(n+6) {
+    width: 200px;
+    border-right: 1px solid #b7b7b7;
+}
+
+.worker_allowance table thead tr.monthly-info th:nth-child(2n) {
+    border-right: 1px solid #b7b7b7;
+}
+
+.worker_allowance table tbody tr th,
+.worker_allowance table tbody tr td
+{
+    padding: 0 10px;
+}
+
+.worker_allowance table tbody tr th:nth-child(2n+6),
+.worker_allowance table tbody tr td:nth-child(2n+6)
+{
+    border-right: 1px solid #b7b7b7;
+}
+
+
+.worker_allowance table tbody tr th:nth-child(n+7),
+.worker_allowance table tbody tr td:nth-child(n+7)
+{
+    text-align: right;
+}

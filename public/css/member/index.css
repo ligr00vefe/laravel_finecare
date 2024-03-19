@@ -1,0 +1,174 @@
+@import "./side.css";
+@import "./list.css";
+@import "./individual.css";
+@import "./batch.css";
+@import "./find.css";
+@import "./service.checklist.css";
+@import "./service.calendar.css";
+@import "./service.list.css";
+@import "./monthlyPay.css";
+@import "./worker.css";
+@import "./work.hour.css";
+@import "./allowance.css";
+@import "./workerPayment.css";
+@import "./counseling.css";
+@import "./services.css";
+@import "./etcIncome.css";
+@import "./social.css";
+@import "./salary.css";
+@import "./addon.css";
+@import "./support.css";
+@import "./dashboard.css";
+
+
+/* member status */
+
+#member_wrap {
+    padding: 30px;
+    width: calc( 100% - 300px );
+    float: left;
+    border-left: 1px solid #b7b7b7;
+}
+
+#member_wrap.list_wrapper {
+    width: calc( 100% - 230px );
+    min-height: 100vh;
+    margin-bottom: 30px;
+}
+
+#member_wrap #list_head .sort-tab {
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+#member_wrap #list_head .head-info {
+    margin-bottom: 25px;
+    overflow: hidden;
+}
+
+#member_wrap #list_head h1 {
+    font-size: 17px;
+    display:inline-block;
+}
+
+#member_wrap #list_head h1 span {
+    font-size: 14px;
+    color: #797979;
+    font-weight: normal;
+    margin-left: 5px;
+}
+
+#member_wrap #list_head .sort-tab ul li {
+    width: 80px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    display: inline-block;
+    float: left;
+    border: 1px solid #b7b7b7;
+    border-right: none;
+}
+
+#member_wrap #list_head .sort-tab ul li:last-child {
+    border-right: 1px solid #b7b7b7;
+}
+
+#member_wrap #list_head .sort-tab ul li a {
+    font-size: 15px;
+    display: block;
+}
+
+#member_wrap #list_head .sort-tab ul li.on {
+    background-color: #000000;
+    border: none;
+}
+
+#member_wrap #list_head .sort-tab ul li.on a {
+    color: #ffffff;
+}
+
+.search-wrap {
+    overflow: hidden;
+}
+
+.search-wrap .limit-wrap {
+    float: left;
+}
+
+.search-wrap .limit-wrap select {
+    width: 145px;
+    height: 30px;
+    font-size: 14px;
+    padding: 0 7px;
+    border: 1px solid #b7b7b7;
+}
+
+.search-wrap .search-input {
+    float: right;
+    font-size: 0;
+}
+
+.search-wrap .search-input input {
+    width: 160px;
+    height: 30px;
+    font-size: 14.5px;
+    padding: 0 8px;
+    border: 1px solid #b7b7b7;
+    vertical-align: super;
+}
+
+.search-wrap .search-input button {
+    width: 35px;
+    height: 30px;
+    border: 1px solid #b7b7b7;
+    border-left: none;
+}
+
+#member_wrap #list_contents {
+    margin-top: 10px;
+}
+
+#member_wrap #list_contents table.member-list {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#member_wrap #list_contents table.member-list tr th,
+#member_wrap #list_contents table.member-list tr td {
+    border-top: 1px solid #b7b7b7;
+}
+
+#member_wrap #list_contents table.member-list thead tr th {
+    min-width: 50px;
+    height: 50px;
+    background-color: #e7e7e7;
+    color: #363636;
+}
+
+#member_wrap #list_contents table.member-list tr td {
+    text-align: center;
+    font-size: 14.5px;
+    color: #636363;
+    line-height: 1;
+    padding: 5px 0;
+    height: 40px;
+}
+
+#member_wrap #list_contents table.member-list tr:nth-child(2n) td {
+    background-color: #f3f2f2;
+}
+
+#member_wrap #list_contents table.member-list tr td.t-left {
+    line-height: 20px;
+    text-align: left;
+    word-break: keep-all;
+}
+
+
+
+#member_wrap #list_bottom {
+    margin-top: 20px;
+    text-align: center;
+}
+
+

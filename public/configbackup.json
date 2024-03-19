@@ -1,0 +1,486 @@
+{
+  "test_server": {
+    "db": {
+      "host": "221.143.46.101",
+      "id": "finecare",
+      "password": "qkfoa2018",
+      "name": "finecare",
+      "char": "utf8"
+    },
+    "host": "finecare.baraem.net"
+  },
+  "server": {
+    "db": {
+      "host": "221.143.46.101",
+      "id": "finecare",
+      "password": "qkfoa2018",
+      "name": "finecare",
+      "char": "utf8"
+    }
+  },
+  "menu": [
+    {
+      "idx": 0,
+      "title": "이용자 관리",
+      "name":"member",
+      "uri": "/member/list",
+      "sub_menu": [
+      {
+          "id": 2,
+          "name": "이용자 등록",
+          "uri": "/member/list"
+        },
+        {
+          "id": 1,
+          "name": "이용자 찾기",
+          "uri": "/member/find"
+        },
+        {
+            "id": 3,
+            "name": "이용자 분류",
+            "uri": "/member/sort/mng",
+            "sub": [
+                {
+                    "id": 2,
+                    "name": "주장애-등급별",
+                    "uri": "/member/sort/mng"
+                },
+                {
+                    "id": 3,
+                    "name": "주장애-연령대별",
+                    "uri": "/member/sort/mna"
+                },
+                {
+                    "id": 4,
+                    "name": "성별-연령대별",
+                    "uri": "/member/sort/gna"
+                },
+                {
+                    "id": 6,
+                    "name": "생활유형-연령대별",
+                    "uri": "/member/sort/lna"
+                },
+                {
+                    "id": 7,
+                    "name": "활동지원등급-유형별",
+                    "uri": "/member/sort/snt"
+                }
+            ]
+        },
+        {
+          "id": 3,
+          "name": "서비스 이용현황",
+          "uri": "/member/service/checklist",
+          "sub": [
+            {
+              "id": 1,
+              "name": "서비스 이용현황",
+              "uri": "/member/service/list"
+            },
+            {
+              "id": 2,
+              "name": "서비스 미이용현황",
+              "uri": "/member/service/unused"
+            },
+            {
+              "id": 3,
+              "name": "서비스 이용 확인표",
+              "uri": "/member/service/checklist"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "idx": 1,
+      "title": "활동지원사 관리",
+      "name":"worker",
+      "uri": "/worker/find",
+      "sub_menu": [
+          {
+              "id": 2,
+              "name": "활동지원사 등록",
+              "uri": "/worker",
+              "sub_title": "활동지원사 명단",
+              "group_uri": ["/worker/add/one", "/worker/add/batch" ]
+        },
+        {
+          "id": 1,
+          "name": "활동지원사 찾기",
+          "uri": "/worker/find",
+          "sub_title": "활동지원사 명단"
+        },
+        {
+          "id": 2,
+          "name": "활동지원사 현황",
+          "uri": "/worker",
+          "sub_title": "활동지원사 명단",
+          "group_uri": ["/worker/add/one", "/worker/add/batch" ],
+          "sub": [
+            {
+              "id": 1,
+              "name": "활동지원사 명단",
+              "uri": "/worker"
+            },
+            {
+              "id": 2,
+              "name": "활동지원사 계획표",
+              "uri": "/worker/timetable/upload"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "서비스 제공현황",
+          "uri": "/worker/service/list",
+          "sub_title": "서비스 제공현황",
+          "sub": [
+            {
+              "id": 1,
+              "name": "근무현황",
+              "uri": "/worker/work/list",
+              "sub_title": "활동지원 서비스 제공"
+            },
+            {
+              "id": 2,
+              "name": "서비스 제공 현황",
+              "uri": "/worker/service/list",
+              "sub_title": "활동지원 서비스 제공"
+            },
+            {
+              "id": 3,
+              "name": "근무 미활동 현황",
+              "uri": "/worker/work/off",
+              "sub_title": "활동지원 서비스 제공"
+            },
+            {
+              "id": 4,
+              "name": "월별 결제 현황",
+              "uri": "/worker/monthly/payment",
+              "sub_title": "활동지원 서비스 제공"
+            },
+            {
+              "id": 5,
+              "name": "서비스 제공 확인표",
+              "uri": "/worker/service/offer",
+              "sub_title": "활동지원 서비스 제공"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "idx": 3,
+      "title": "전자바우처등록",
+      "name":"service",
+      "uri": "/service/list/exist",
+      "sub_menu": [
+        {
+          "id": 1,
+          "name": "서비스내역 조회",
+          "uri": "/service/list/exist",
+          "sub": [
+            {
+              "id": 1,
+              "name": "기존 서비스내역",
+              "uri": "/service/list/exist"
+            },
+            {
+              "id": 2,
+              "name": "신규 서비스내역",
+              "uri": "/service/list/new"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "전자바우처 이용",
+          "uri": "/service/voucher/upload",
+          "sub": [
+            {
+              "id": 1,
+              "name": "전자바우처 이용내역 검색",
+              "uri": "/service/voucher/list/1"
+            },
+            {
+              "id": 2,
+              "name": "전자바우처내역 등록",
+              "uri": "/service/voucher/upload"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "추가 서비스내역",
+          "uri": "/service/extra/list",
+          "group_uri": [
+            "/service/extra/create"
+          ]
+        },
+        {
+          "id": 5,
+          "name": "원거리교통비",
+          "uri": "/etcIncome/fare/registration",
+          "sub": [
+            {
+              "id": 1,
+              "name": "원거리교통비 등록",
+              "uri": "/etcIncome/fare/registration"
+            },
+            {
+              "id": 2,
+              "name": "원거리교통비 조회",
+              "uri": "/etcIncome/fare/view/1"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "중증가산수당",
+          "uri": "/etcIncome/severe/registration",
+          "sub": [
+            {
+              "id": 1,
+              "name": "중증가산수당 등록",
+              "uri": "/etcIncome/severe/registration"
+            },
+            {
+              "id": 2,
+              "name": "중증가산수당 조회",
+              "uri": "/etcIncome/severe/view/1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "idx": 4,
+      "title": "급여관리",
+      "name":"salary",
+      "uri": "/salary/calc",
+      "sub_menu": [
+        {
+          "id": 1,
+          "name": "급여계산",
+          "uri": "/salary/calc"
+        },
+        {
+          "id":2,
+          "name": "사회보험",
+          "uri": "/social/insurance/manage",
+          "sub": [
+            {
+              "id":2,
+              "name": "통합징수포탈 등록",
+              "uri": "/social/collect/upload/1",
+              "group_uri": [
+                "/social/collect/upload/1", "/social/collect/upload/2", "/social/collect/upload/3", "/social/collect/upload/4"
+              ]
+            },
+            {
+              "id":3,
+              "name": "통합징수포탈 조회",
+              "uri": "/social/collect/list/np/1",
+              "group_uri": [
+                "/social/collect/list/health/1", "/social/collect/list/ind/1", "/social/collect/list/emp/1"
+              ]
+            },
+            {
+              "id":4,
+              "name": "EDI 등록",
+              "uri": "/social/EDI/upload/1",
+              "group_uri": [
+                "/social/EDI/upload/1", "/social/EDI/upload/2", "/social/EDI/upload/3", "/social/EDI/upload/4"
+              ]
+            },
+            {
+              "id":5,
+              "name": "EDI 조회",
+              "uri": "/social/EDI/list/np/1",
+              "group_uri": [
+                "/social/EDI/list/np/1", "/social/EDI/list/health/1", "/social/EDI/list/ind/1", "/social/EDI/list/emp/1"
+              ]
+            },
+            {
+              "id":1,
+              "name": "사회보험 기입정보 관리",
+              "uri": "/social/insurance/manage"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "기타급여",
+          "uri": ""
+        },
+        {
+          "id": 4,
+          "name": "급여대장",
+          "uri": "/salary/paybook"
+        },
+        {
+          "id": 5,
+          "name": "급여명세서",
+          "uri": "/salary/payslip"
+        },
+        {
+          "id": 6,
+          "name": "급여지급내역",
+          "uri": "",
+          "sub": [
+            {
+              "id": 1,
+              "name": "급여지급내역",
+              "uri": ""
+            },
+            {
+              "id": 4,
+              "name": "공제내역",
+              "uri": "/salary/deduction"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "name": "재정산",
+          "uri": "",
+          "sub": [
+            {
+              "id": 1,
+              "name": "급여이력 조회",
+              "uri": "/record/payment"
+            },
+            {
+              "id": 1,
+              "name": "근로자별 급여이력조회",
+              "uri": "/record/worker"
+            },
+            {
+              "id": 2,
+              "name": "급여재정산",
+              "uri": "/recalc"
+            },
+            {
+              "id": 3,
+              "name": "재정산 차액산정",
+              "uri": "/recalcDiff"
+            },
+            {
+              "id": 4,
+              "name": "연차수당 재정산",
+              "uri": "/recalcAnnual"
+            },
+            {
+              "id": 5,
+              "name": "연차수당 재정산 차액신청",
+              "uri": "/recalcAnnualApply"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "idx": 9,
+      "title": "부가기능",
+      "name":"Addon",
+      "uri": "/addon/statistics",
+      "sub_menu": [
+        {
+          "id": 1,
+          "name": "상담",
+          "uri": "/counseling/users/all/1",
+          "group_uri": [ "/counseling/users/worker", "/counseling/users/member", "/counseling/users/worker/1", "/counseling/users/member/1",
+            "/counseling/log/create", "/counseling/log/create/member", "/counseling/log/create/worker", "/counseling/log/view" ],
+          "sub": [
+            {
+              "id": 1,
+              "name": "상담기록",
+              "uri": "/counseling/users/all/1",
+              "group_uri": [ "/counseling/users/worker", "/counseling/users/member", "/counseling/users/worker/1", "/counseling/users/member/1",
+                "/counseling/log/create", "/counseling/log/create/member", "/counseling/log/create/worker", "/counseling/log/view" ]
+            },
+            {
+              "id": 2,
+              "name": "상담일지조회",
+              "uri": "/counseling/log/list/1"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "데이터분석",
+          "uri": "/addon/statistics",
+          "sub": [
+            {
+              "id": 1,
+              "name": "우리기관",
+              "uri": "/addon/statistics"
+            },
+            {
+              "id": 2,
+              "name": "다른기관 포함",
+              "uri": "/addon/other/payments",
+              "group_uri": [
+                "/addon/other/hourlyWage"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "연말정산기초자료",
+          "uri": "/addon/tax/year",
+          "sub": [
+            {
+              "id": 1,
+              "name": "연말정산 안내",
+              "uri": "/addon/tax/year"
+            },
+            {
+              "id": 2,
+              "name": "편리한 연말정산 자료",
+              "uri": "/addon/tax/data/year",
+              "group_uri": [
+                "/addon/rsnumber/batch"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "idx": 10,
+      "title": "고객지원",
+      "name":"support",
+      "uri": "/support/qna/list",
+      "sub_menu": [
+          {
+              "id": 1,
+              "name": "온라인문의",
+              "uri": "/support/qna/list",
+              "group_uri": [
+                "/support/qna/write", "/support/qna/view", "/support/qna/answer"
+              ]
+          },
+          {
+            "id" : 2,
+            "name": "FAQ",
+            "uri" : "/support/faq/list",
+            "group_uri": []
+          },
+          {
+            "id" : 3,
+            "name": "자료실",
+            "uri" : "/support/lib/list",
+            "group_uri": []
+          },
+          {
+            "id" : 4,
+            "name": "동영상",
+            "uri" : "/support/video/list",
+            "group_uri": []
+          }
+      ]
+    }
+  ]
+}

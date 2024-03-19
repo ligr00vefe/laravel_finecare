@@ -1,0 +1,227 @@
+.salary-cal-wrap .search-wrap {
+    /*height: 980px;*/
+    background-color: #ececec;
+}
+
+.salary-cal-wrap .search-wrap > form > table {
+    border-bottom: 1px solid #b7b7b7;
+}
+
+.salary-cal-wrap .search-wrap .btn-wrap {
+    margin-bottom:30px;
+}
+
+.salary-cal-wrap .search-wrap table tr th,
+.salary-cal-wrap .search-wrap table tr td {
+    border-top: 1px solid #b7b7b7;
+    padding: 10px 0;
+}
+
+.salary-cal-wrap .search-wrap table tr th {
+    color: #111111;
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+    width: 160px;
+}
+
+.salary-cal-wrap .search-wrap table tr th p {
+    text-align: left;
+    display: inline-block;
+    line-height: 22px;
+    font-size: inherit;
+    color: #111111;
+}
+
+.salary-cal-wrap .search-in-table {
+    width: 95%;
+}
+
+.salary-cal-wrap .search-in-table tr th {
+    border-top: none !important;
+}
+
+.salary-cal-wrap .search-in-table tr td {
+    width: 220px;
+    text-align: left;
+    border-top: none !important;
+    font-size: 15px;
+    padding: 0 10px 0 0 !important;
+}
+
+.salary-cal-wrap .search-in-table tr:first-child td,
+.salary-cal-wrap .search-in-table tr:nth-child(3) td
+{
+    text-align: center;
+}
+
+.salary-cal-wrap .search-in-table tr:nth-child(3) td {
+    padding-top: 8px !important;
+}
+
+.salary-cal-wrap .search-in-table tr td input[type=text] {
+    width: 220px;
+    height: 30px;
+    color: #363636;
+}
+
+.salary-cal-wrap .td_01 input[type=text] {
+    width: 150px;
+    height: 30px;
+    margin-left: 10px;
+    padding: 0 10px;
+    color: #363636;
+}
+
+.salary-cal-wrap .td_02 > div {
+    margin-bottom: 10px;
+}
+
+.salary-cal-wrap .td_02 > div:last-child {
+    margin-bottom: 0;
+}
+
+.salary-cal-wrap input[type=radio] + label {
+    color: #363636;
+}
+
+input[type="checkbox"].p-m-clear + label {
+    padding-left: 25px !important;
+}
+
+input[type="checkbox"].p-m-clear + label:before {
+    margin-top: -10px !important;
+}
+
+
+.salary-cal-wrap .search-detail-wrap input[type=text] {
+    width: 100px;
+    height: 30px;
+    padding: 0 10px;
+}
+
+.salary-cal-wrap .search-detail-wrap table button {
+    width: 44px;
+    height: 30px;
+    background-color: transparent;
+    border: 1px solid #b7b7b7;
+}
+
+.salary-cal-wrap .search-detail-wrap table button.type1 {
+    background-color: #111111;
+    color: #ffffff;
+}
+
+.salary-cal-wrap .search-detail-wrap table button:first-child {
+    border-right: none;
+}
+
+.salary-cal-wrap .search-detail-wrap table .wrap-ib {
+    font-size: 0;
+}
+
+.wrap-ib {
+    display: inline-block;
+}
+
+.salary-cal-wrap .btn-submit-small {
+    width: 43px;
+    height: 30px;
+    border: none !important;
+    color: #ffffff;
+    background-color: #959595 !important;
+}
+
+.salary-cal-wrap tr.table-top th {
+    border-right: 1px solid #b7b7b7;
+}
+
+
+
+.b-right-b7 {
+    border-right: 1px solid #b7b7b7;
+}
+
+
+.salary-cal-wrap .search-input {
+    font-size: 0;
+}
+
+.salary-cal-wrap .search-input input {
+    width: 160px;
+    height: 32px;
+    border-right: none;
+}
+
+.salary-cal-wrap .search-input button {
+    width: 35px !important;
+    vertical-align: bottom;
+    background-color: #e2e2e2 !important;
+}
+
+.salary-cal-wrap .search-input button img {
+
+}
+
+
+.calc_table_in {
+    width: 60%;
+}
+.calc_table_in tr td {
+    border: none !important;
+}
+
+.calc_table_in tr td input[type=text] {
+    width: 220px;
+    height: 30px;
+}
+
+
+.input-pay-auto {
+    width: 220px;
+    height: 30px;
+}
+
+
+.arrow-btn {
+    position: fixed;
+    top: 95%;
+    right: 3%;
+}
+
+.arrow-btn button {
+    border :none;
+    outline: none;
+    background-color: transparent;
+}
+
+.arrow-btn svg {
+    color: #eb8626;
+}
+
+
+#list_contents {
+    /*overflow: auto;*/
+    max-height: 1000px;
+}
+
+#list_contents table {
+    /*table-layout: auto;*/
+}
+
+#list_contents tr th,
+#list_contents tr td {
+    width: 100px;
+}
+
+/*#list_contents tbody tr td {*/
+    /*height: 50px;*/
+/*}*/
+
+#list_bottom {
+    /*overflow: hidden;*/
+}
+
+#list_bottom .form-wrap {
+    float: right;
+}

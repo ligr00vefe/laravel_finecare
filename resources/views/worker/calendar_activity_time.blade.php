@@ -1,0 +1,61 @@
+<table>
+    <thead>
+    <tr>
+        <th>일</th>
+        <th>월</th>
+        <th>화</th>
+        <th>수</th>
+        <th>목</th>
+        <th>금</th>
+        <th>토</th>
+    </tr>
+    </thead>
+    <tbody>
+    @for($i=0; $i<5; $i++)
+        <tr>
+            @for($j=0; $j<7; $j++)
+                @php
+
+                    $print_day = "";
+                    /* 월의 첫 날짜 설정하기 */
+                    if ($week_day >= ( ($i*6+1)+$j) && $dayAdd == 0) $print_day = "";
+                    else $print_day = ++$dayAdd;
+
+                    /* 월의 마지막날짜설정 "" 설정 */
+                    if ($dayAdd > $endDay) $print_day = "";
+
+                    $data_date = $print_day ? date("Y-m-d", strtotime($year."-".$month."-".$print_day)) : "";
+
+                @endphp
+                <td data-date="{{ $data_date }}" data-day="{{ $print_day }}"
+                    class="{{ in_array($print_day, $schedule[$provider_key]['holiday_work']) ? "work" : "" }}
+                            {{ in_array($print_day, $schedule[$provider_key]['holiday_off']) ? "off" : "" }}
+                            "
+                >
+                    @if (array_key_exists($data_date, $public_holiday))
+                        <h3 style="color: red;">{{ $print_day }} {{ $public_holiday[$data_date] }}</h3>
+                    @else
+                        <h3>{{ $print_day }}</h3>
+                    @endif
+                    <div class="use-time-wrap m-top-5">
+                        @if (in_array($data_date, $schedule[$provider_key]['date']))
+                            <p style="color: #707070; ">근로시간</p>
+                            @foreach ($schedule[$provider_key]['time'][$data_date] as $i => $day)
+                                <div style="color: #363636">
+                                    {{ $day }}
+                                </div>
+                            @endforeach
+                            <p style="margin-top: 10px">총시간: {{ $schedule[$provider_key]['total_time'][$data_date] }}</p>
+                        @elseif (!in_array($data_date, $schedule[$provider_key]['date']) && in_array($print_day, $schedule[$provider_key]['holiday_work']))
+                            <p>미근무</p>
+                        @endif
+                    </div>
+                </td>
+            @endfor
+        </tr>
+        @if ($dayAdd > $endDay)
+            <?php return; ?>
+        @endif
+    @endfor
+    </tbody>
+</table>

@@ -1,0 +1,237 @@
+
+.support-qna-list #list_head {
+    overflow: hidden;
+}
+
+.support-qna-list .search-wrap {
+    display: inline-block;
+    float: right;
+    padding-top: 5px;
+}
+
+.support-qna-list .sort-tab {
+    float: left;
+    display: inline-block;
+}
+
+.support-qna-list .search-wrap select,
+.support-faq-list .search-wrap select
+{
+    width: 145px;
+    height: 30px;
+    margin-right: 5px;
+    padding: 0 5px;
+    float: left;
+}
+
+.support-qna-list .btn-wrap,
+.support-faq-list .btn-wrap
+{
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+.support-qna-list .btn-wrap button,
+.support-faq-list .btn-wrap button
+{
+    width: 122px;
+    height :40px;
+    font-size: 15px;
+    border: none;
+}
+
+.support-qna-list .btn-wrap .left {
+    float: left;
+}
+
+.support-qna-list .btn-wrap .right,
+.support-faq-list .btn-wrap .right
+{
+    float: right;
+}
+
+.support-qna-list .btn-wrap .right button,
+.support-faq-list .btn-wrap .right button
+{
+    color: #ffffff;
+    background-color: #111111;
+}
+
+
+
+
+
+.qna-write #contents .contents-top h3 {
+    font-size: 17px;
+    font-family: "Noto Sans CJK KR Bold";
+}
+
+.qna-write #contents .contents-top .top-user-info {
+    margin: 18px 0;
+    padding: 0 20px;
+    height: 60px;
+    line-height: 60px;
+    background-color: #ececec;
+}
+
+.qna-write #contents .contents-top .top-user-info span {
+    margin-right: 15px;
+    color: #707070;
+}
+
+.qna-write #contents .contents-top .top-user-info span b {
+    color: #363636;
+}
+
+.qna-write #contents .contents-top .top-user-info span img {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.btn-connect-user {
+    margin-top: 10px;
+    width: 164px;
+    height: 41px;
+    background-color: #eb8626;
+    color: #ffffff;
+    font-size: 15px;
+    border: none;
+    float: right;
+}
+
+.btn-connect-user img {
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.qna-write #contents .contents-body table {
+    border-bottom: 1px solid #b7b7b7;
+}
+
+.qna-write #contents .contents-body table tr th,
+.qna-write #contents .contents-body table tr td
+{
+    padding: 8px 0;
+    border-top: 1px solid #b7b7b7;
+    font-size: 15px;
+}
+
+.qna-write #contents .contents-body table tr th {
+    text-align: left;
+    color: #111111;
+}
+
+.qna-write #contents .contents-body table tr td select {
+    padding: 0 10px;
+}
+
+.qna-write #contents .contents-body table tr td input {
+    width: 264px;
+    height: 32px;
+    padding: 0 10px;
+}
+
+.qna-write #contents .contents-body table tr td #from_date,
+.qna-write #contents .contents-body table tr td #from_date_time,
+.qna-write #contents .contents-body table tr td #to_date,
+.qna-write #contents .contents-body table tr td #to_date_time
+{
+    width: 150px !important;
+}
+
+.qna-write #contents .contents-body table tr td textarea
+{
+    width: 100%;
+    height: 110px;
+    border: 1px solid #b7b7b7;
+}
+
+.qna-write .btn-wrap button {
+    width: 123px;
+    height: 40px;
+    border: none;
+    font-size: 15px;
+}
+
+.qna-write .btn-wrap button.btn-cancel {
+    background-color: #e2e2e2;
+    color: #464646;
+}
+
+.qna-write .btn-wrap button.btn-submit {
+    background-color: #111111;
+    color: #ffffff;
+    font-size: 15px;
+}
+
+
+.qna-write table input[type=file] {
+    display: none;
+}
+
+.qna-write table input[type=file] {
+    display: none;
+}
+
+.qna-write table label.file-label {
+    display: inline-block;
+    width: 96px;
+    height: 33px;
+    line-height: 33px;
+    text-align: center;
+    font-size: 15px;
+    color: #252525;
+    background-color: #e2e2e2;
+    float: left;
+    border: 1px solid #b7b7b7;
+    border-left: none;
+}
+
+.qna-write .file-wrap input[type=text]{
+    float: left;
+    border-right: none;
+}
+
+
+
+
+
+
+.qna-write table tr th {
+    font-weight: normal;
+}
+
+.qna-write table .upload_list {
+    background-color: #f4f4f4;
+}
+
+.qna-write table .upload_list p {
+    padding-left: 10px;
+}
+
+.qna-write table .upload_list p img {
+    margin-right: 10px;
+}
+
+.qna-write .min-contents {
+    height: 180px;
+    vertical-align: top;
+}
+
+.qna-write .btn-wrap {
+    float: right;
+}
+
+.qna-write .btn-wrap button.btn-orange {
+    background-color: #eb8627;
+    color: #ffffff;
+}
+
+.qna-answer .btn-wrap {
+    float: none;
+}
+
+
+.qna-answer #contents .contents-body table tr td textarea {
+    height: 175px;
+}

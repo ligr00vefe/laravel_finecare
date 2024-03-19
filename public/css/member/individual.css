@@ -1,0 +1,121 @@
+#member_register {
+    padding: 30px;
+    width: calc( 100% - 230px );
+    min-height: 82vh;
+    float: left;
+    border-left: 1px solid #b7b7b7;
+}
+
+#member_register h1 {
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+#member_register table {
+    width: 100%;
+}
+
+#member_register table tr th,
+#member_register table tr td {
+    border-top: 1px solid #b7b7b7;
+    text-align: left;
+}
+
+#member_register table tr th {
+    font-size: 15px;
+    color: #111111;
+}
+
+#member_register table tr td {
+    padding: 7px 0;
+    border-bottom: 1px solid #b7b7b7
+}
+
+#member_register table tbody tr:last-child th {
+    border-bottom: 1px solid #b7b7b7;
+}
+
+#member_register table tr td input {
+    width: 264px;
+    height: 33px;
+    border: 1px solid #b7b7b7;
+    padding: 0 10px;
+    font-size: 15px;
+}
+
+p.help {
+    font-size: 14px;
+    color: #eb8626;
+    line-height: 1;
+    margin-top: 5px;
+}
+
+#member_register table tr td input[name='member_gender'] + label {
+    color: #111111;
+    margin-right: 25px;
+}
+
+#member_register table tr td input[name='member_gender']:nth-child(3) + label {
+    margin-right: 0;
+}
+
+.required_mark:after {
+    content: "*";
+    color: #ed1c24;
+    vertical-align: top;
+}
+
+#member_register table input + img {
+    position: relative;
+    left: -25px;
+}
+
+
+input.input-large {
+    width: 620px !important;
+}
+
+input.input-middle::placeholder {
+    color: #7d7d7d;
+    font-size: 15px;
+}
+
+#member_register table .td-address div {
+    margin-bottom: 5px;
+}
+
+#member_register table .td-address div:last-child {
+    margin-bottom: 0;
+}
+
+#member_register table .td-address div button {
+    font-size: 15px;
+    color: #111111;
+    width: 80px;
+    height: 32px;
+    background-color: #e2e2e2;
+    border: 1px solid #b7b7b7;
+}
+
+#member_register .td-school > div {
+    margin-bottom: 10px;
+}
+
+#member_register .td-school > div:last-child {
+    margin-bottom: 0;
+}
+
+#member_register .td-family label {
+    margin-right: 15px;
+}
+
+#member_register .member-textarea textarea {
+    width: 640px;
+    height: 100px;
+    border: 1px solid #b7b7b7;
+}
+
+#member_register #register-table tr:last-child tr td button {
+    text-align: center;
+}
+

@@ -1,0 +1,161 @@
+.counseling-users .sort-tab {
+    display: inline-block;
+    float: left;
+}
+
+.counseling-users #list_head {
+    overflow: hidden;
+}
+
+.counseling-users #list_head {
+    overflow: hidden;
+}
+
+.counseling-users #list_contents table.member-list tr:nth-child(2n) td {
+    background-color: transparent !important;
+}
+
+.btn-write-counseling:hover,
+.btn-write-counseling:active,
+.btn-write-counseling:visited
+{
+    color: #eb8626;
+}
+
+.btn-write-counseling {
+    width: 108px;
+    height: 32px;
+    line-height: 32px;
+    background-color: transparent;
+    border:1px solid #eb8626;
+    color: #eb8626;
+    display: inline-block;
+}
+
+
+
+
+
+.counseling-write #contents .contents-top h3 {
+    font-size: 17px;
+    font-family: "Noto Sans CJK KR Bold";
+}
+
+.counseling-write #contents .contents-top .top-user-info {
+    margin: 18px 0;
+    padding: 0 20px;
+    height: 60px;
+    line-height: 60px;
+    background-color: #ececec;
+}
+
+.counseling-write #contents .contents-top .top-user-info span {
+    margin-right: 15px;
+    color: #707070;
+}
+
+.counseling-write #contents .contents-top .top-user-info span b {
+    color: #363636;
+}
+
+.counseling-write #contents .contents-top .top-user-info span img {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.btn-connect-user {
+    margin-top: 10px;
+    width: 164px;
+    height: 41px;
+    background-color: #eb8626;
+    color: #ffffff;
+    font-size: 15px;
+    border: none;
+    float: right;
+}
+
+.btn-connect-user img {
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.counseling-write #contents .contents-body table {
+    border-bottom: 1px solid #b7b7b7;
+}
+
+.counseling-write #contents .contents-body table tr th,
+.counseling-write #contents .contents-body table tr td
+{
+    padding: 8px 0;
+    border-top: 1px solid #b7b7b7;
+    font-size: 15px;
+}
+
+.counseling-write #contents .contents-body table tr th {
+    text-align: left;
+    color: #111111;
+}
+
+.counseling-write #contents .contents-body table tr td select {
+    padding: 0 10px;
+}
+
+.counseling-write #contents .contents-body table tr td input {
+    width: 264px;
+    height: 32px;
+    padding: 0 10px;
+}
+
+.counseling-write #contents .contents-body table tr td #from_date,
+.counseling-write #contents .contents-body table tr td #from_date_time,
+.counseling-write #contents .contents-body table tr td #to_date,
+.counseling-write #contents .contents-body table tr td #to_date_time
+{
+    width: 150px !important;
+}
+
+.counseling-write #contents .contents-body table tr td textarea
+{
+    width: 100%;
+    height: 110px;
+    border: 1px solid #b7b7b7;
+}
+
+.counseling-write .btn-wrap button {
+    width: 123px;
+    height: 40px;
+    border: none;
+    font-size: 15px;
+}
+
+.counseling-write .btn-wrap button.btn-cancel {
+    background-color: #e2e2e2;
+    color: #464646;
+}
+
+.counseling-write .btn-wrap button.btn-submit {
+    background-color: #111111;
+    color: #ffffff;
+    font-size: 15px;
+}
+
+.label-date-img img {
+    position: relative;
+    left: -25px;
+}
+
+
+.min-height-t-area {
+    min-height: 165px;
+    height: auto;
+}
+
+.view-type tr th,
+.view-type tr td
+{
+    height: 52px;
+}
+
+.btn-wrap.right {
+    text-align: right;
+}

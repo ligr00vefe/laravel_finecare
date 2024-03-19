@@ -1,0 +1,103 @@
+aside {
+    width: 230px;
+    float: left;
+    padding: 30px 25px;
+}
+
+aside.main {
+    width: 300px;
+    float: left;
+    padding: 30px;
+}
+
+aside h3 {
+    font-size: 15px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+aside h3:before {
+    content: "\25AA";
+    color: #eb8626;
+    font-size: 22px;
+    position: relative;
+    top: 1px;
+}
+
+aside .top-box {
+    width: 100%;
+    height: 90px;
+    background-color: #eeeeee;
+    padding: 20px 0;
+    text-align: center;
+}
+
+aside .top-box h1 {
+    font-size: 30px;
+    line-height: 1;
+    font-family: "s-core-dream-medium";
+}
+
+aside .top-box span:first-child b {
+    color: #ed1c24;
+}
+
+aside .top-box span:nth-child(2) b {
+    color: #0072bc;
+}
+
+aside #side-middle {
+    margin: 20px 0;
+}
+
+aside #side-middle table {
+    width: 100%;
+    font-size: 14px;
+}
+
+aside #side-middle table tr td {
+    padding: 3px 10px;
+    text-align: right;
+    font-size: 13.5px;
+    color: #707070;
+}
+
+
+/* side_nav */
+
+aside .sub-menu__list h3 {
+    font-size: 16px !important;
+    color: #555555 !important;
+}
+
+aside .sub-menu__list ul {
+    margin-left: 15px;
+}
+
+aside .sub-menu__list ul li {
+    padding: 5px 0;
+}
+
+aside .sub-menu__list ul li > a {
+    font-size: 15px;
+    color: #000000;
+    font-weight: bold;
+    word-break: keep-all;
+    line-height: 22px;
+}
+
+aside .sub-menu__list ul.ul_2depth {
+    margin-left: 0;
+}
+
+aside .sub-menu__list ul.ul_2depth li > a {
+    font-size: 14px;
+    color: #898989;
+    font-weight: bold;
+    word-break: keep-all;
+    line-height: 22px;
+}
+
+aside .sub-menu__list ul li.on a {
+    color: #eb8626;
+}

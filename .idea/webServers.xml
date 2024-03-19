@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="8b7f8c2b-aad2-48ae-a6c9-3fbbdd6f1c06" name="aws파인케어테스트" url="http://ec2-13-209-189-71.ap-northeast-2.compute.amazonaws.com">
+        <fileTransfer rootFolder="/home/finecare_test" accessType="SFTP" host="ec2-13-209-189-71.ap-northeast-2.compute.amazonaws.com" port="22" sshConfigId="5967feb3-680e-4215-a853-64f77733c3f3" sshConfig="aws파인케어테스트" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

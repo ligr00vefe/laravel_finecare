@@ -1,0 +1,183 @@
+.social-insurance-list .limit-wrap p {
+    font-size: 15px;
+    display: block;
+}
+
+.social-insurance-list #list_contents table select,
+.social-insurance-list #list_contents table input
+{
+    width: 84px;
+    height: 29px;
+}
+
+
+
+
+.collect-upload-wrap #contents .contents-box  {
+    border: 1px solid #b7b7b7;
+}
+
+.collect-upload-wrap #contents .contents-box .box-top  {
+    height: 440px;
+    padding: 30px;
+}
+
+.collect-upload-wrap #contents .contents-box h3 {
+    font-size: 17px;
+    color: #111111;
+}
+
+.collect-upload-wrap #contents .contents-box h3 img {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.collect-upload-wrap #contents .contents-box p {
+    margin-bottom: 10px;
+    font-size: 15px;
+    color: #555555;
+}
+
+.collect-upload-wrap #contents .contents-box .box-bottom {
+    height: 255px;
+    background-color: #ececec;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.collect-upload-wrap .upload-wrap {
+    font-size: 0;
+}
+
+.collect-upload-wrap #upload_file {
+    display: none;
+}
+
+.collect-upload-wrap label[for=upload_file] {
+    background-color: black;
+    color: #ffffff;
+    height: 33px;
+    padding: 0 14px;
+    line-height: 33px;
+    font-size: 15px;
+    display: inline-block;
+}
+
+.collect-upload-wrap #upload_file_text {
+    padding:0 10px;
+    width: 263px;
+    height: 33px;
+}
+
+
+.collect-upload-wrap span.dotted-yellow {
+    color: #eb8627;
+    font-size: 22px;
+}
+
+.collect-upload-wrap .contents-box p.title {
+    font-size: 16px !important;
+    color: #111111 !important;
+}
+
+.collect-upload-wrap .contents-box .m-top-20 p.m-clear{
+    line-height: 22px;
+}
+
+
+
+
+.collect-list-wrap #list_head {
+    overflow: hidden;
+}
+
+.collect-list-wrap .tab-wrap {
+    float: left;
+}
+
+.collect-list-wrap .tab-wrap ul li {
+    margin-top: 0 !important;
+}
+
+.collect-list-wrap .search-wrap {
+    float: right;
+}
+
+
+
+
+
+
+
+
+
+.edi-upload-wrap #contents .contents-box  {
+    border: 1px solid #b7b7b7;
+}
+
+.edi-upload-wrap #contents .contents-box .box-top  {
+    height: 460px;
+    padding: 30px;
+}
+
+.edi-upload-wrap #contents .contents-box h3 {
+    font-size: 17px;
+    color: #111111;
+}
+
+.edi-upload-wrap #contents .contents-box h3 img {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.edi-upload-wrap #contents .contents-box p {
+    margin-bottom: 10px;
+    font-size: 15px;
+    color: #555555;
+}
+
+.edi-upload-wrap #contents .contents-box .box-bottom {
+    height: 250px;
+    background-color: #ececec;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.edi-upload-wrap .upload-wrap {
+    font-size: 0;
+}
+
+.edi-upload-wrap #upload_file {
+    display: none;
+}
+
+.edi-upload-wrap label[for=upload_file] {
+    background-color: black;
+    color: #ffffff;
+    height: 33px;
+    padding: 0 14px;
+    line-height: 33px;
+    font-size: 15px;
+    display: inline-block;
+}
+
+.edi-upload-wrap #upload_file_text {
+    padding:0 10px;
+    width: 263px;
+    height: 33px;
+}
+
+
+.edi-upload-wrap span.dotted-yellow {
+    color: #eb8627;
+    font-size: 22px;
+}
+
+.edi-upload-wrap .contents-box p.title {
+    font-size: 16px !important;
+    color: #111111 !important;
+}
+
+.edi-upload-wrap .contents-box .m-top-20 p.m-clear{
+    line-height: 22px;
+}

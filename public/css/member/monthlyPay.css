@@ -1,0 +1,111 @@
+.worker_pay .head-info {
+    display: inline-block;
+}
+
+.worker_pay .search-wrap .limit-wrap {
+    clear: both;
+}
+
+.worker_pay #list_contents {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.worker_pay #list_contents .search-info p {
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: #555555;
+}
+
+.worker_pay #list_contents table.worker-monthlyPay__table {
+    width: max-content;
+    overflow-x: auto;
+}
+
+.worker_pay #list_contents table.worker-monthlyPay__table thead tr th {
+    height: 40px;
+    background-color: #e7e7e7;
+    font-size: 14.5px;
+    color: #363636;
+    border-top: 1px solid #b7b7b7;
+}
+
+.worker_pay #list_contents table.worker-monthlyPay__table thead tr th:first-child {
+    width: 50px;
+}
+
+.worker_pay #list_contents table.worker-monthlyPay__table thead tr th:nth-child(2) {
+    width: 40px;
+}
+
+.worker_pay #list_contents table.worker-monthlyPay__table thead tr th:nth-child(3) {
+    width: 130px;
+}
+
+.worker_pay #list_contents table.worker-monthlyPay__table thead tr th:nth-child(4) {
+    width: 130px;
+}
+
+.worker_pay #list_contents table.worker-monthlyPay__table thead tr th:nth-child(5) {
+    width: 130px;
+}
+
+.worker_pay #list_contents table.worker-monthlyPay__table thead tr th:nth-child(6) {
+    width: 130px;
+    border-right: 1px solid #b7b7b7;
+}
+
+.worker_pay #list_contents table.worker-monthlyPay__table thead tr.monthly-info th {
+    width: 100px;
+}
+
+.worker_pay #list_contents table.worker-monthlyPay__table thead tr th:nth-child(n+7) {
+    border-right: 1px solid #b7b7b7;
+}
+
+.worker_pay #list_contents table.worker-monthlyPay__table thead tr.monthly-info th:nth-child(3n+3) {
+    border-right: 1px solid #b7b7b7;
+}
+
+
+.worker_pay #list_contents table.worker-monthlyPay__table tbody tr.total {
+    height: 40px;
+    font-size: 14.5px;
+    background-color: #f3ece4;
+    font-family: "Noto Sans CJK KR Bold";
+}
+
+
+.worker_pay #list_contents table.worker-monthlyPay__table tbody tr.total th {
+    border-top: 1px solid #b7b7b7;
+}
+
+.worker_pay #list_contents table.worker-monthlyPay__table tbody tr.total th,
+.worker_pay #list_contents table.worker-monthlyPay__table tbody tr.data td {
+    text-align: right;
+    padding-right: 10px;
+}
+
+
+.worker_pay #list_contents table.worker-monthlyPay__table tbody tr.total th:nth-child(3n+6),
+.worker_pay #list_contents table.worker-monthlyPay__table tbody tr.data td:nth-child(3n+6)
+{
+    border-right: 1px solid #b7b7b7;
+}
+
+.worker_pay #list_contents table.worker-monthlyPay__table tbody tr.data td {
+    height: 40px;
+    font-size: 14.5px;
+    font-family: "Noto Sans CJK KR Medium";
+    color: #636363;
+    border-top: 1px solid #b7b7b7;
+}
+
+.worker_pay #list_contents table.worker-monthlyPay__table tbody tr.data:last-child  td {
+    border-bottom: 1px solid #b7b7b7;
+}
+
+.worker_pay #list_contents table.worker-monthlyPay__table tbody tr.data:nth-child(2n-1) {
+    background-color: #f3f2f2;
+}

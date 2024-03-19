@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="ec2-13-209-189-71.ap-northeast-2.compute.amazonaws.com" id="5967feb3-680e-4215-a853-64f77733c3f3" keyPath="$USER_HOME$/Downloads/finecare_test.pem" port="22" customName="aws파인케어테스트" nameFormat="CUSTOM" username="ubuntu">
+        <option name="customName" value="aws파인케어테스트" />
+      </sshConfig>
+      <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="ec2-13-209-189-71.ap-northeast-2.compute.amazonaws.com" id="666979e1-4843-4d50-b040-8e58d885a45d" keyPath="D:\보관\aws key\finecare_test.pem" port="22" customName="aws파인케어테스트" nameFormat="CUSTOM">
+        <option name="customName" value="aws파인케어테스트" />
+      </sshConfig>
+      <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="ec2-13-209-189-71.ap-northeast-2.compute.amazonaws.com" id="5608b9dc-39a0-487c-bbad-44ce8f45d398" keyPath="D:\보관\aws key\finecare_test.pem" port="22" customName="aws파인케어테스트" nameFormat="CUSTOM" username="ubuntu">
+        <option name="customName" value="aws파인케어테스트" />
+      </sshConfig>
+      <sshConfig host="ec2-13-209-189-71.ap-northeast-2.compute.amazonaws.com" id="244e8ed8-677e-424b-a25d-529d1552e075" keyPath="C:\Users\Baraem-Dev\.ssh\finecare_test.pem" port="22" customName="aws파인케어테스트" nameFormat="CUSTOM">
+        <option name="customName" value="aws파인케어테스트" />
+      </sshConfig>
+    </configs>
+  </component>
+</project>

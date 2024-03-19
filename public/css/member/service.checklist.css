@@ -1,0 +1,98 @@
+.service-checklist__table-wrap {
+    width: 430px;
+    border: 1px solid #b7b7b7;
+    display: inline-block;
+    float: left;
+    margin-right: 30px;
+}
+
+.service-checklist__table {
+    width: 100%;
+    font-size: 14.5px;
+}
+
+.service-checklist__table tr.load_helper,
+.service-checklist__table tr.load_helper_calendar_list
+{
+    cursor: pointer;
+}
+
+.service-checklist__table.half {
+    width: 50%;
+}
+
+.service-checklist__table thead {
+    width: 100%;
+    float: left;
+}
+
+.service-checklist__table thead tr {
+    width: 100%;
+    display: table;
+}
+
+.service-checklist__table thead tr th {
+    color: #363636;
+    height: 40px;
+    background-color: #f4f4f4;
+    border-bottom: 1px solid #b7b7b7;
+}
+
+.service-checklist__table tbody {
+    width: 100%;
+    height: 955px;
+    overflow-y: auto;
+    float: left;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
+.service-checklist__table tbody::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera*/
+}
+
+
+.service-checklist__table.rtl tbody {
+    direction:rtl; /* css scrollbar left */
+}
+
+.service-checklist__table tbody tr {
+    width: 100%;
+    display: table;
+}
+
+.service-checklist__table tbody tr.on {
+    background-color: #f3ece4;
+}
+
+.service-checklist__table tbody tr:hover {
+    background-color: #f3ece4;
+}
+
+.service-checklist__table tbody tr td {
+    color: #636363;
+    text-align: center;
+    height: 40px;
+}
+
+
+.service-checklist__table tbody tr td:first-child {
+    width: 85px;
+}
+
+.service-checklist__table tbody tr td:nth-child(2) {
+    width: 130px;
+}
+
+.service-checklist__table tbody tr td:nth-child(3) {
+    width: auto;
+}
+
+
+.service-checklist__table.half {
+    float: left;
+}
+
+.service-checklist__table.half tbody tr td:nth-child(2) {
+    width: 40%;
+}

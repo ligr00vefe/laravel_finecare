@@ -1,0 +1,152 @@
+.table-auto {
+    width: auto !important;
+    display: inline-block;
+}
+
+.table-auto th,
+.table-auto td
+{
+    padding-right: 10px;
+}
+
+.top-search .search-input {
+    float: right;
+    font-size: 0;
+}
+
+.top-search .search-input input {
+    width: 160px;
+    height: 32px;
+    border: 1px solid #b7b7b7;
+    border-right: none;
+    padding: 10px;
+}
+
+.top-search .search-input button {
+    width: 35px;
+    height: 31px;
+    vertical-align: sub;
+    border: 1px solid #b7b7b7;
+    border-radius: 0;
+}
+
+
+.content-top .info-wrap {
+    overflow: hidden;
+    background-color: #f4f4f4;
+    border: 1px solid #b7b7b7;
+}
+
+.content-top ul {
+    overflow: hidden;
+    height: 150px;
+}
+
+.content-top ul li {
+    display: inline-block;
+    float: left;
+    width: calc( 100% / 4 );
+    height: 150px;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.content-top ul li > div {
+    /*content: "";*/
+    border-right: 1px solid #c2c2c2;
+    /*position: absolute;*/
+    /*margin-left: 193px;*/
+    /*margin-top: -85px;*/
+    /*height: 85px;*/
+}
+
+.content-top ul li:last-child >div {
+    border: none;
+}
+
+.content-top ul li .text-wrap p {
+    line-height: 22px;
+}
+
+.content-top ul li .text-wrap p:first-child {
+    font-size: 14px;
+    color: #707070;
+}
+
+.content-top ul li .text-wrap p:last-child {
+    font-size: 21px;
+    color: #707070;
+}
+
+
+table.service-list__table {
+    margin-top: 20px;
+
+}
+
+table.service-list__table.member {
+    width:60%;
+    float:left;
+}
+
+table.service-list__table.worker {
+    width:40%;
+    float:left;
+}
+
+table.service-list__table.worker {
+    width:40%;
+    float:left;
+}
+
+table.service-list__table.worker tr td:nth-child(1) {
+    border-right: none;
+}
+
+table.service-list__table tr th,
+table.service-list__table tr td {
+    font-size: 15px;
+}
+
+table.service-list__table tr td:nth-child(5) {
+    border-right: 1px solid #b7b7b7;
+}
+
+
+table.service-list__table thead tr th {
+    background-color: #e8e8e8;
+    height: 45px;
+    border-top: 1px solid #b7b7b7;
+    color: #636363;
+}
+
+table.service-list__table .b-right-gray {
+    border-right: 1px solid #b7b7b7;
+}
+
+table.service-list__table tr td {
+    text-align: center;
+    height: 40px;
+    border-top: 1px solid #b7b7b7;
+}
+
+table.service-list__table tr td:nth-child(1) {
+    border-right: 1px solid #b7b7b7;
+}
+
+table.service-list__table tr th:first-child input[type=checkbox] + label,
+table.service-list__table tr td:first-child input[type=checkbox] + label {
+    padding-left: 10px;
+}
+
+table.service-list__table tr:nth-child(2n) {
+    background-color: #f2f1f2;
+}
+
+table.service-list__table input[type=checkbox] + label {
+    vertical-align: super;
+}
+
+.bg-sand {
+    background-color: #f4ece5 !important;
+}

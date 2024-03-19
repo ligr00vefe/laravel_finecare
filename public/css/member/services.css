@@ -1,0 +1,304 @@
+.service-list .search-wrap .limit-wrap input.type1 {
+    width: 150px;
+    margin-right: 10px;
+}
+
+.service-list .search-wrap .limit-wrap span {
+    color: #707070;
+    size: 14px;
+}
+
+
+.service-voucher-upload p.latest-info {
+    margin-top: 10px !important;
+}
+
+.service-voucher-upload .download-info {
+    padding: 0 55px;
+}
+
+.service-voucher-upload .download-info p {
+    font-size: 15px;
+    line-height: 22px;
+    color: #555555;
+    text-align: left;
+}
+
+.service-voucher-upload .register-content li {
+    height: auto !important;
+}
+
+.service-voucher-upload .register-content li .box-in .box-top {
+    height: 415px !important;
+}
+
+.service-voucher-upload .register-content li .box-in .box-bottom {
+    height: auto !important;
+    padding-bottom: 20px;
+}
+
+.service-voucher-upload .fc-sky {
+    font-family: "Noto Sans CJK KR Bold";
+    font-weight: bold;
+}
+
+
+
+.btn-orange-wrap {
+    border: 1px solid #EB8626;
+    background-color: transparent;
+    color: #EB8626;
+    font-size: 14px;
+    width: 125px;
+    height: 32px;
+}
+
+.btn-orange-wrap img {
+    vertical-align: sub;
+}
+
+.service-voucher .search-wrap {
+    background-color: #ececec;
+    border-top: 1px solid #b7b7b7;
+    padding: 30px;
+}
+
+.service-voucher .search-wrap table tr th,
+.service-voucher .search-wrap table tr td {
+    padding: 10px 0;
+}
+
+.service-voucher .search-wrap table tr th {
+    width: 75px;
+    text-align: left;
+    color: #363636;
+}
+
+.service-voucher .search-wrap table tr:nth-child(2) th {
+    vertical-align: top;
+}
+
+.service-voucher .search-wrap input[type=text] {
+    width: 110px;
+    height: 30px;
+    margin: 0 5px;
+    padding: 0 8px;
+}
+
+#same_people_check + label {
+    margin-left: 10px;
+}
+
+
+.list_wrapper.service-voucher .search-wrap input[type="checkbox"] + label {
+    padding-left: 25px;
+    margin-right: 10px;
+    letter-spacing: -0.6px;
+}
+
+.list_wrapper.service-voucher input[type="checkbox"] + label:before {
+    margin-top: -10px !important;
+}
+
+.list_wrapper.service-voucher .search-type__td div {
+    margin: 5px 0;
+}
+
+.list_wrapper.service-voucher .search-type__td div input[name='search_type[]'] + label p {
+    width : 110px;
+    height: 32px;
+    line-height: 32px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.list_wrapper.service-voucher .search-type__td div:first-child input[name='search_type[]'] + label p {
+    background-color: #eb8627;
+}
+
+.list_wrapper.service-voucher .search-type__td div:nth-child(2) input[name='search_type[]'] + label p {
+    background-color: #39b54a;
+}
+
+.list_wrapper.service-voucher .search-type__td div:nth-child(3) input[name='search_type[]'] + label p {
+    background-color: #0054a6;
+}
+.list_wrapper.service-voucher .search-type__td div:nth-child(4) input[name='search_type[]'] + label p,
+.list_wrapper.service-voucher .search-type__td div:nth-child(5) input[name='search_type[]'] + label p
+{
+    background-color: #f8407c;
+}
+
+.list_wrapper.service-voucher .search-type__td div:nth-child(6) input[name='search_type[]'] + label p
+{
+    background-color: #ffb400;
+}
+
+.list_wrapper.service-voucher .search-type__td div:nth-child(7) input[name='search_type[]'] + label p,
+.list_wrapper.service-voucher .search-type__td div:nth-child(8) input[name='search_type[]'] + label p
+{
+    background-color: #662d91;
+}
+
+.list_wrapper.service-voucher .search-type__td div:nth-child(9) input[name='search_type[]'] + label p,
+.list_wrapper.service-voucher .search-type__td div:nth-child(10) input[name='search_type[]'] + label p,
+.list_wrapper.service-voucher .search-type__td div:nth-child(11) input[name='search_type[]'] + label p,
+.list_wrapper.service-voucher .search-type__td div:nth-child(12) input[name='search_type[]'] + label p
+{
+    background-color: #003471;
+}
+
+
+.list_wrapper.service-voucher input[name='search_type[]']:nth-child(2) + label {
+    background-color: #39b54a;
+}
+
+.m-left-per-10 {
+    margin-left: 10% !important;
+}
+
+.payment-type__checkbox-wrap {
+    margin-top: 10px !important;
+}
+
+.payment-type__checkbox-wrap input + label {
+    width: 253px;
+}
+
+.activity-desc-wrap p {
+    line-height: 35px;
+}
+
+#list_contents > p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+.service-manage-write #contents .contents-top h3 {
+    font-size: 17px;
+    font-family: "Noto Sans CJK KR Bold";
+}
+
+.service-manage-write #contents .contents-top .top-user-info {
+    margin: 18px 0;
+    padding: 0 20px;
+    height: 60px;
+    line-height: 60px;
+    background-color: #ececec;
+}
+
+.service-manage-write #contents .contents-top .top-user-info span {
+    margin-right: 15px;
+    color: #707070;
+}
+
+.service-manage-write #contents .contents-top .top-user-info span b {
+    color: #363636;
+}
+
+.service-manage-write #contents .contents-top .top-user-info span img {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.btn-connect-user {
+    margin-top: 10px;
+    width: 164px;
+    height: 41px;
+    background-color: #eb8626;
+    color: #ffffff;
+    font-size: 15px;
+    border: none;
+    float: right;
+}
+
+.btn-connect-user img {
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.service-manage-write #contents .contents-body table {
+    border-bottom: 1px solid #b7b7b7;
+}
+
+.service-manage-write #contents .contents-body table tr th,
+.service-manage-write #contents .contents-body table tr td
+{
+    padding: 8px 0;
+    border-top: 1px solid #b7b7b7;
+    font-size: 15px;
+}
+
+.service-manage-write #contents .contents-body table tr th {
+    text-align: left;
+    color: #111111;
+}
+
+.service-manage-write #contents .contents-body table tr td select {
+    padding: 0 10px;
+}
+
+.service-manage-write #contents .contents-body table tr td input {
+    width: 264px;
+    height: 32px;
+    padding: 0 10px;
+}
+
+.service-manage-write #contents .contents-body table tr td #from_date,
+.service-manage-write #contents .contents-body table tr td #from_date_time,
+.service-manage-write #contents .contents-body table tr td #to_date,
+.service-manage-write #contents .contents-body table tr td #to_date_time
+{
+    width: 150px !important;
+}
+
+.service-manage-write #contents .contents-body table tr td textarea
+{
+    width: 100%;
+    height: 172px;
+    border: 1px solid #b7b7b7;
+}
+
+.service-manage-write .btn-wrap button {
+    width: 123px;
+    height: 40px;
+    border: none;
+    font-size: 15px;
+}
+
+.service-manage-write .btn-wrap button.btn-cancel {
+    background-color: #e2e2e2;
+    color: #464646;
+}
+
+.service-manage-write .btn-wrap button.btn-submit {
+    background-color: #111111;
+    color: #ffffff;
+    font-size: 15px;
+}
+
+.service-manage-list .right-buttons button {
+    height: 32px;
+    border: 1px solid #b7b7b7;
+    padding: 0 15px;
+}
+
+.service-manage-list .right-buttons button.orange {
+    border: 1px solid #eb8627;
+    color: #eb8627;
+    background-color: transparent;;
+}
+
+
+
+.service-voucher .btn-wrap button {
+    width: 150px;
+    height: 35px;
+    background-color: #111111;
+    font-size: 15px;
+}

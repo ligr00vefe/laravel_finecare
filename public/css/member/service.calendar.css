@@ -1,0 +1,108 @@
+.calendar {
+    width: calc( 100% - 430px - 30px );
+    float: left;
+    text-align: center;
+}
+
+.calendar .calendar-head {
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.calendar .calendar-head h1 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.calendar .calendar-head p {
+    font-size: 15px;
+}
+
+.calendar .calendar-head b {
+    font-size: 15px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.calendar .calendar-head b.orange {
+    color: #eb8626;
+}
+
+.calendar .calendar-head ul {
+    text-align: left;
+    margin-top: 10px;
+}
+
+.calendar .calendar-head ul li {
+    display: inline-block;
+    font-size: 0;
+    float: left;
+}
+
+.calendar .calendar-head ul li button {
+    background-color: transparent;
+    border: 1px solid #b7b7b7;
+    font-size: 14px;
+    width: 120px;
+    height: 32px;
+    border-collapse: collapse;
+    cursor: pointer;
+}
+
+.calendar .calendar-head ul li:last-child button {
+    border-left: 0;
+}
+
+.calendar .calendar-head ul li.on button {
+    border: 1px solid #eb8626;
+    color: #eb8626;
+}
+
+.calendar .calendar-wrap table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+
+.calendar .calendar-wrap table tr th,
+.calendar .calendar-wrap table tr td {
+    font-size: 15px;
+    border: 1px solid #b7b7b7;
+}
+
+.calendar .calendar-wrap table thead tr th {
+    font-size: 15px;
+    font-weight: normal;
+    color: #363636;
+    background-color: #f4f4f4;
+    width: calc( 100% / 7 );
+    height: 40px;
+}
+
+.calendar .calendar-wrap table tbody tr td {
+    vertical-align: top;
+    height: 170px;
+    padding: 10px;
+    text-align: left;
+    font-size: 14px;
+    color: #898989
+}
+
+.calendar .calendar-wrap table tbody tr td h3 {
+    font-size: 15px !important;
+    color: #898989
+}
+
+.calendar-wrap .use-time-wrap {
+    margin-bottom: 10px;
+}
+
+.calendar-wrap .use-time-wrap p {
+    line-height: 18px;
+    color: #363636;
+}
+
+.calendar-wrap .use-time-info p {
+    line-height: 18px;
+}

@@ -1,0 +1,65 @@
+table.dataTable {
+    border-collapse: collapse !important;
+    border-top: 1px solid #b7b7b7 !important;
+    border-bottom: 1px solid #b7b7b7 !important;
+}
+
+table.dataTable thead {
+    background-color: #e7e7e7 !important;
+    border-collapse: collapse !important;
+}
+
+table.dataTable thead td {
+    color: #363636;
+    font-weight: bold;
+    font-size: 14.5px;
+    text-align: center;
+    border-bottom: none;
+
+}
+
+table.dataTable thead th, table.dataTable thead td {
+    /*border-top: 1px solid #b7b7b7 !important;*/
+    border-left: 1px solid #b7b7b7 !important;
+    border-right: 1px solid #b7b7b7 !important;
+    border-collapse: collapse !important;
+}
+
+.dataTables_scrollHeadInner tr td {
+    border: 1px solid #b7b7b7;
+}
+
+.DTFC_LeftHeadWrapper tr td {
+    border: 1px solid #b7b7b7;
+    height: 50px;
+}
+
+tr.odd td,
+tr.even td {
+    padding: 0 !important;
+    text-align: center;
+    border: 1px solid #b7b7b7;
+}
+
+.dataTables_scrollBody tr td > div:not(.dataTables_sizing),
+.DTFC_LeftBodyLiner tr td > div:not(.dataTables_sizing) {
+    padding: 5px 0;
+}
+
+.dataTables_scrollBody tr td > div:not(.dataTables_sizing):first-child,
+.DTFC_LeftBodyLiner tr td > div:not(.dataTables_sizing):first-child {
+    border-bottom: 1px solid #b7b7b7;
+}
+
+table.dataTable.no-footer {
+    border: 1px solid #b7b7b7;
+    /*border-bottom: none;*/
+}
+
+.dataTables_info {
+    display: none;
+}
+
+#list_contents tbody tr td {
+    height: 50px;
+}
